@@ -3,14 +3,9 @@ let n = readlineSync.question('Combien de nombres aléatoires voulez-vous géné
 let finalArray = []
 
 
-
-
 function rand10() { // function rand10 returns a random integer between 1 and 10.
  return Math.ceil(Math.random() * 10)
 }
-
-
-
 
 function multirand(n) { // function multirand(n) returns an array of n numbers between 1 and 10.
     // return array=[n*rand10()]
@@ -19,6 +14,7 @@ function multirand(n) { // function multirand(n) returns an array of n numbers b
 
     }
 }
+
 multirand(n)
 console.log(finalArray)
 
