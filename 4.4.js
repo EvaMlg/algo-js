@@ -7,6 +7,9 @@ function rand10() { // function rand10 returns a random integer between 1 and 10
  return Math.ceil(Math.random() * 10)
 }
 
+console.log(average(arr));
+console.log(min(arr))
+console.log(max(arr))
 function multirand(n) { // function multirand(n) returns an array of n numbers between 1 and 10.
     for (let i=0; i<n; i++){
        arr.push(rand10())
