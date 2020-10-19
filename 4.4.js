@@ -29,6 +29,7 @@ function min(arr){
 return Math.min(...arr)
 }  
 
+//function min(arr) takes an array min(arr)of numbers as argument and returns the minimum element.
 function max(arr){
 return Math.max(...arr)
 }
